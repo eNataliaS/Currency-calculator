@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kantor</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <script defer src="script/javascript.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form class="form js-form">
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">
+          <strong>Kalkulator walut</strong>
+        </legend>
+        <p>
+          <label class="form__labelText"
+            >Kwota w PLN:
+            <input
+              class="form__fieldInput js-amount"
+              name="valueNumber"
+              type="number"
+              min="1"
+              required
+              step="any"
+              placeholder="Wprowadź wartość"
+            />
+          </label>
+        </p>
+        <p>
+          <label class="form__labelText"
+            >Wybierz walutę:
+            <select class="form__fieldInput js-currency" name="field">
+              <option value="EUR">EUR</option>
+              <option value="USD">USD</option>
+              <option value="GBP">GBP</option>
+              <option value="SEK">SEK</option>
+            </select>
+          </label>
+        </p>
+        <button class="form__button">Przelicz!</button>
+        <p class="form__result">
+          Kwota po przeliczeniu: <strong class="js-result">N/A</strong>
+        </p>
+        <p>
+          <button class="form__button type" type="reset">Wyczyść</button>
+        </p>
+        <p>*Kursy walut z dnia 12.04.2023</span></p>
+      </fieldset>
+    </form>
+  </body>
+</html>
