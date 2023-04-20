@@ -73,3 +73,9 @@ html {
 .form__result {
     padding: 15px;
 }
+
+.body{
+    background-image: url("../images/7850619.jpg");
+    background-size: cover;
+    background-position: center;
+}
