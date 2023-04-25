@@ -13,7 +13,7 @@ html {
     padding: 15px;
     font-size: 18px;
     color: rgb(61, 6, 6);
-    background-color: #cecece;  
+    background-color: #cecece;
     border: 15px solid #433d3d;
     border-radius: 15px;
     width: 100%;
@@ -74,7 +74,7 @@ html {
     padding: 15px;
 }
 
-.body{
+.body {
     background-image: url("../images/7850619.jpg");
     background-size: cover;
     background-position: center;
